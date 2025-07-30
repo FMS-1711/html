@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head><title>AKATSUKI</title>
+    <style>
+        video{
+            display: block;
+            margin: auto;
+        }
+        .Previous {
+                    background-color: grey;
+                    color: aliceblue;
+                    font-size: 2cm;
+                    display: grid;
+                    text-align: center;
+
+                }
+    </style>
+    </head>
+    <body bgcolor="black">
+        <table style="height:100% ;width: 100%;">
+            <tr style="height:1000% ;width:100%">
+                <h1 style="font-family:'Courier New', Courier, monospace ; color:aliceblue ;font-size: 2cm; "><li>click on video  </li>
+               <li> to play the video</li></h1>
+                
+                <video controls width="50%" >  
+              <source  src="vid.mp4" type="video/mp4"  >  
+                      </video>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <form >
+                    <a href="#" class="Previous" onclick="history.back()"> &lsaquo; Previous</a>
+                    </form>
+                    
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
